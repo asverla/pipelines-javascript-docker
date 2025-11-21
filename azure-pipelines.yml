@@ -6,7 +6,9 @@
 trigger:
 - main
 
-pool: default
+pool: 
+  name: default
+  vmImage: 'windows-latest'
 
 variables:
   imageName: 'pipelines-javascript-docker'
